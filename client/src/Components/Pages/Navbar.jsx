@@ -7,7 +7,7 @@ const Navbar = () => {
             <div style={{display:"flex", gap:"20px", background:"black",padding:"10px"}}>
                 <NavLink style={{color:"white",textDecoration:"none"}}to="/login">Login</NavLink>
                 <NavLink style={{color:"white",textDecoration:"none"}}to="/register">Register</NavLink>
-                <NavLink style={{color:"white",textDecoration:"none"}}to="/Home">Home</NavLink>
+                <NavLink style={{color:"white",textDecoration:"none"}}to="/">Home</NavLink>
             </div>
         </div>
     )
